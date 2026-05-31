@@ -40,19 +40,7 @@ AKRASC-Website/
 │
 ├── index.html
 ├── style.css
-├── assets/
-│   ├── images
-│   └── icons
-│
 └── README.md
-```
-
-## Getting Started
-
-### Clone the Repository
-
-```bash
-git clone <repository-url>
 ```
 
 ## Reference
