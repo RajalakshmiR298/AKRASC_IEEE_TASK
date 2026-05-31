@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKRASC - All Kerala Robotics & Automation Society Conclave</title>
+    <meta name="description" content="Official website for All Kerala Robotics & Automation Society Conclave (AKRASC). Explore, Network, Create. Flagship event organized by IEEE RAS Kerala Chapter.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient background glow elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Fixed Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" id="nav-logo">
+                <span class="logo-accent">&lt;</span>AKRASC<span class="logo-accent">/&gt;</span>
+            </a>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="https://ras.ieeekerala.org/" target="_blank" rel="noopener noreferrer" class="nav-link external-link">RAS KC <svg class="external-icon" viewBox="0 0 24 24" width="14" height="14"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                <li class="nav-item"><a href="#host" class="nav-link">Host</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link nav-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <canvas id="particle-canvas" class="particle-canvas"></canvas>
+        <div class="hero-glow-overlay"></div>
+        
+        <!-- Floating robotics-themed shapes -->
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+
+        <div class="hero-content text-center">
+            <div class="hero-badge reveal">IEEE RAS Kerala Chapter Presents</div>
+            <h1 class="hero-title reveal">
+                <span class="glow-text">AKRASC</span>
+            </h1>
+            <p class="hero-subtitle reveal">ALL KERALA ROBOTICS & AUTOMATION SOCIETY CONCLAVE</p>
+            <div class="hero-tagline reveal">
+                <span>Explore.</span>
+                <span>Network.</span>
+                <span>Create.</span>
+            </div>
+            <div class="hero-cta reveal">
+                <a href="#tickets" class="btn btn-primary glowing-btn">Register Now</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal">About The Conclave</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text-card glass-card reveal">
+                    <h3>Empowering Future Roboticists</h3>
+                    <p>The All Kerala Robotics and Automation Society Conclave (AKRASC) is the premier flagship event organized by the IEEE RAS Kerala Chapter, meticulously designed for robotics enthusiasts, students, and professionals.</p>
+                    <p>AKRASC serves as a collaborative platform where pioneering ideas meet technical expertise. Our goal is to host an exceptional experience, fostering knowledge-sharing, innovation, and networking in the field of robotics and automation across Kerala.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">2+</span>
+                            <span class="stat-label">Days of Event</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">500+</span>
+                            <span class="stat-label">Participants</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">10+</span>
+                            <span class="stat-label">Expert Speakers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-feature-card glass-card reveal">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" fill="none" stroke="currentColor" stroke-width="2"/><polyline points="3.27 6.96 12 12.01 20.73 6.96" fill="none" stroke="currentColor" stroke-width="2"/><line x1="12" y1="22.08" x2="12" y2="12" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Robotics & Automation Focus</h4>
+                            <p>Dive deep into modern paradigms of machine learning, control systems, cyber-physical systems, and human-robot interaction.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="9" cy="7" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M23 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Networking Opportunities</h4>
+                            <p>Establish direct connections with top industry leaders, academic researchers, and peers from various engineering institutions.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><polygon points="12 2 2 7 12 12 22 7 12 2" fill="none" stroke="currentColor" stroke-width="2"/><polygon points="2 17 12 22 22 17" fill="none" stroke="currentColor" stroke-width="2"/><polygon points="2 12 12 17 22 12" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Workshops & Activities</h4>
+                            <p>Participate in hands-on, practical sessions designed to bridge the gap between classroom theory and real-world technology application.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Attend Section -->
+    <section class="why-attend section-padding" id="why-attend">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal">Why Attend AKRASC?</h2>
+                <p class="section-subtitle reveal">Unleash your potential with unmatched opportunities at Kerala's premier robotics event.</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="why-grid">
+                <div class="why-card glass-card reveal">
+                    <div class="why-icon glow-cyan">
+                        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h4>Technical Workshops</h4>
+                    <p>Gain hands-on knowledge on cutting-edge platforms, ROS, hardware controllers, and AI integration.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <div class="why-icon glow-blue">
+                        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h4>Expert Sessions</h4>
+                    <p>Learn directly from researchers and industry professionals shaping the future of global automation.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <div class="why-icon glow-cyan">
+                        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h4>Project Expo</h4>
+                    <p>Showcase your innovations, prototype designs, or academic research to experts and potential investors.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <div class="why-icon glow-blue">
+                        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h4>Competitions</h4>
+                    <p>Compete in thrill-inducing robotics contests that test your coding, designing, and troubleshooting skills.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <div class="why-icon glow-cyan">
+                        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+                    </div>
+                    <h4>Networking</h4>
+                    <p>Build lasting relationships with fellow tech enthusiasts, mentors, and prospective employers.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <div class="why-icon glow-blue">
+                        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" y1="2" x2="12" y2="12"/></svg>
+                    </div>
+                    <h4>Innovation</h4>
+                    <p>Uncover creative problem-solving techniques and discover the spark to build something entirely your own.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Highlights Section -->
+    <section class="highlights section-padding" id="highlights">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal">Event Highlights</h2>
+                <p class="section-subtitle reveal">A curation of state-of-the-art visual, technical, and cultural programs.</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="highlights-grid">
+                <div class="highlight-card glass-card reveal">
+                    <div class="highlight-img-wrapper">
+                        <div class="highlight-placeholder glow-cyan">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8"/></svg>
+                        </div>
+                    </div>
+                    <div class="highlight-info">
+                        <h4>Keynote Talks</h4>
+                        <p>Thought-provoking speeches by national and international pioneers in robotics and automated engineering.</p>
+                    </div>
+                </div>
+                <div class="highlight-card glass-card reveal">
+                    <div class="highlight-img-wrapper">
+                        <div class="highlight-placeholder glow-blue">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                        </div>
+                    </div>
+                    <div class="highlight-info">
+                        <h4>Technical Sessions</h4>
+                        <p>In-depth, academic-oriented presentations showcasing emerging research, papers, and advancements.</p>
+                    </div>
+                </div>
+                <div class="highlight-card glass-card reveal">
+                    <div class="highlight-img-wrapper">
+                        <div class="highlight-placeholder glow-cyan">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="7.5 4.21 12 6.81 16.5 4.21"/><polyline points="7.5 19.79 7.5 14.6 3 12"/><polyline points="21 12 16.5 14.6 16.5 19.79"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                        </div>
+                    </div>
+                    <div class="highlight-info">
+                        <h4>Workshops</h4>
+                        <p>Practical, immersive learning scenarios using high-tech robotic development platforms and tools.</p>
+                    </div>
+                </div>
+                <div class="highlight-card glass-card reveal">
+                    <div class="highlight-img-wrapper">
+                        <div class="highlight-placeholder glow-blue">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                    </div>
+                    <div class="highlight-info">
+                        <h4>Project Expo</h4>
+                        <p>An amazing exhibition of student-designed systems, autonomous vehicles, and automated mechanism prototypes.</p>
+                    </div>
+                </div>
+                <div class="highlight-card glass-card reveal">
+                    <div class="highlight-img-wrapper">
+                        <div class="highlight-placeholder glow-cyan">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12h20M20 5v14M4 5v14M12 2v20"/></svg>
+                        </div>
+                    </div>
+                    <div class="highlight-info">
+                        <h4>Demonstrations</h4>
+                        <p>Live, real-time testing and troubleshooting of state-of-the-art robotic platforms in dynamic conditions.</p>
+                    </div>
+                </div>
+                <div class="highlight-card glass-card reveal">
+                    <div class="highlight-img-wrapper">
+                        <div class="highlight-placeholder glow-blue">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                    </div>
+                    <div class="highlight-info">
+                        <h4>Collaboration Activities</h4>
+                        <p>Brainstorming sessions, hack-challenges, and collaborative panels resolving engineering bottlenecks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Objectives Section -->
+    <section class="objectives section-padding" id="objectives">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal">Conclave Objectives</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="objectives-grid">
+                <div class="objective-card glass-card reveal">
+                    <div class="objective-num">01</div>
+                    <h4>Inter SB Collaboration</h4>
+                    <p>Nurture collaboration between diverse Student Branches (SBs) of IEEE Kerala Section, fostering community learning and resource-sharing.</p>
+                </div>
+                <div class="objective-card glass-card reveal">
+                    <div class="objective-num">02</div>
+                    <h4>Community Engagement</h4>
+                    <p>Drive interest in Robotics & Automation among young engineering student groups and local technological innovation clusters.</p>
+                </div>
+                <div class="objective-card glass-card reveal">
+                    <div class="objective-num">03</div>
+                    <h4>Technical Networking</h4>
+                    <p>Establish high-quality, professional networks between academia, R&D institutes, and the commercial automation industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets / Registration Section -->
+    <section class="tickets section-padding" id="tickets">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal">Registration Details</h2>
+                <p class="section-subtitle reveal">Grab your access to Kerala's flagship robotics event. Choose your ticket tier below.</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="tickets-grid">
+                <div class="ticket-card glass-card reveal">
+                    <div class="ticket-badge">Most Popular</div>
+                    <h4>Full Ticket (2 Days)</h4>
+                    <p class="ticket-desc">Experience the event in its entirety. Access to all keynotes, project expo, workshops, and cultural events.</p>
+                    <div class="ticket-pricing">
+                        <div class="price-row"><span>IEEE RAS:</span> <strong>₹800</strong></div>
+                        <div class="price-row"><span>IEEE Member:</span> <strong>₹1000</strong></div>
+                        <div class="price-row"><span>Non-IEEE:</span> <strong>₹1200</strong></div>
+                    </div>
+                    <a href="https://ras.ieeekerala.org/akrasc.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Registration Closed</a>
+                </div>
+                <div class="ticket-card glass-card reveal">
+                    <h4>Professional Meetup</h4>
+                    <p class="ticket-desc">Connect with robotics experts, industry leaders, hobbyists, and researchers. Share work and build collaborations.</p>
+                    <div class="ticket-pricing">
+                        <div class="price-row"><span>Professional Ticket:</span> <strong>₹400</strong></div>
+                        <div class="price-row"><span>M.Tech Students:</span> <strong>₹400</strong></div>
+                    </div>
+                    <a href="https://ras.ieeekerala.org/akrasc.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Registration Closed</a>
+                </div>
+                <div class="ticket-card glass-card reveal">
+                    <h4>Project Expo Only</h4>
+                    <p class="ticket-desc">Exclusively reserved for aspiring entrepreneurs and innovators looking to showcase their startups or project models.</p>
+                    <div class="ticket-pricing">
+                        <div class="price-row"><span>Expo Only:</span> <strong>₹500</strong></div>
+                    </div>
+                    <a href="https://ras.ieeekerala.org/akrasc.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Registration Closed</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue & Location Section -->
+    <section class="host section-padding" id="host">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal">Host</h2>
+                <p class="section-subtitle reveal">Find your way to the flagship robotics conclave of the year.</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="host-card glass-card reveal">
+                <!-- Left Side: Venue Details -->
+                <div class="host-details">
+                    <div class="host-badge">Venue Host</div>
+                    <h3>College of Engineering Trivandrum (CET)</h3>
+                    <p class="location-state">Thiruvananthapuram, Kerala</p>
+                    <p class="venue-description">Established in 1939, the College of Engineering Trivandrum (CET) is one of the most prestigious and oldest engineering institutions in India. Known for its academic excellence and research prowess, CET provides the perfect technological ecosystem to host AKRASC.</p>
+                    <p>We are thrilled to announce that <strong>IEEE SB CET</strong> is taking the lead in organizing and hosting this exciting edition of the conclave, assuring top-notch execution and hospitality.</p>
+                    
+                    <div class="location-box">
+                        <div class="location-icon pin-bounce">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="location-text">
+                            <strong>Location Details:</strong>
+                            <p>Sreekaryam-Kulathoor Rd, P.O, Sreekariyam, Thiruvananthapuram, Kerala 695016</p>
+                        </div>
+                    </div>
+
+                    <div class="directions-container">
+                        <a href="https://maps.google.com/?q=College+of+Engineering+Trivandrum" target="_blank" rel="noopener noreferrer" class="btn btn-primary glowing-btn directions-btn">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                            Get Directions
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Interactive Google Map -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.7482811413813!2d76.8984953757497!3d8.547942796645398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05be1c6a2db8fd%3A0x6a0584be39433df7!2sCollege%20of%20Engineering%20Trivandrum%20(CET)!5e0!3m2!1sen!2sin!4v1717140000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal">Connect With Us</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-card glass-card reveal">
+                <div class="contact-info text-center">
+                    <h3>IEEE RAS Kerala Chapter</h3>
+                    <p class="contact-desc">For inquiries regarding the conclave, sponsorship, or general queries, connect with our administrative body.</p>
+                    <a href="https://ras.ieeekerala.org/" target="_blank" rel="noopener noreferrer" class="btn btn-primary glowing-btn mb-4">Official Website</a>
+                    
+                    <div class="social-channels">
+                        <a href="https://www.instagram.com/ieee_ras_kc/" target="_blank" rel="noopener noreferrer" class="social-btn instagram-btn" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/groups/1888416/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-btn" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                        <a href="https://ras.ieeekerala.org/" target="_blank" rel="noopener noreferrer" class="social-btn ieee-btn" aria-label="IEEE Portal">
+                            <span class="ieee-icon">IEEE</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="footer-copy">&copy; 2026 IEEE RAS Kerala Chapter. All rights reserved.</p>
+            <p class="footer-design">Designed for AKRASC | Flagship Event</p>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- Custom Logic Javascript -->
+    <script>
+        // Toggle mobile menu
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Change navbar glass effect on scroll
+        const navbar = document.getElementById('navbar');
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+                scrollTopBtn.classList.add('visible');
+            } else {
+                navbar.classList.remove('scrolled');
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Scroll Reveal Animation using IntersectionObserver
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        revealElements.forEach(el => observer.observe(el));
+
+        // Simple Canvas Particle background for Hero Section
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+
+        function resizeCanvas() {
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
+        }
+        
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        const particles = [];
+        const particleCount = 60;
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = (Math.random() - 0.5) * 0.5;
+                this.speedY = (Math.random() - 0.5) * 0.5;
+                this.alpha = Math.random() * 0.5 + 0.2;
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+                if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+            }
+
+            draw() {
+                ctx.save();
+                ctx.globalAlpha = this.alpha;
+                ctx.fillStyle = '#00f0ff';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+
+        for (let i = 0; i < particleCount; i++) {
+            particles.push(new Particle());
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+
+            // Draw connecting lines
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dist = Math.hypot(particles[i].x - particles[j].x, particles[i].y - particles[j].y);
+                    if (dist < 100) {
+                        ctx.save();
+                        ctx.globalAlpha = (1 - dist / 100) * 0.15;
+                        ctx.strokeStyle = '#00f0ff';
+                        ctx.lineWidth = 0.5;
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.stroke();
+                        ctx.restore();
+                    }
+                }
+            }
+            requestAnimationFrame(animateParticles);
+        }
+
+        animateParticles();
+    </script>
+</body>
+</html>
